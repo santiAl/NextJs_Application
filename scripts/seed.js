@@ -1,4 +1,4 @@
-/*const { db } = require('@vercel/postgres');
+const { db } = require('@vercel/postgres');
 const {
   invoices,
   customers,
@@ -176,4 +176,4 @@ main().catch((err) => {
     'An error occurred while attempting to seed the database:',
     err,
   );
-}); */
+}); 
